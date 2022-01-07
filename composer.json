@@ -1,0 +1,19 @@
+{
+    "name": "ingjuancho/php-mailer",
+    "description": "Paquete para enviar correos con phpmailer",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ingjuancho\\PhpMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Carlos Bonilla González",
+            "email": "63250964+jcarlosbonillagonzalez@users.noreply.github.com"
+        }
+    ]
+}
